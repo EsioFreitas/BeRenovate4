@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
-// import { Container } from './styles';
+import { Container } from './styles';
 
 function Main() {
   return (
-    <Fragment>
+    <Container>
       <header>
         <div>
           <h1>
@@ -128,7 +128,7 @@ function Main() {
           </p>
         </div>
       </section>
-    </Fragment>
+    </Container>
   );
 }
 
