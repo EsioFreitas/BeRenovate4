@@ -6,24 +6,28 @@ function Main() {
   return (
     <Container>
       <header>
-        <div>
-          <h1>
-            From A to Z
-            <br />
-            renovation
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua maecenas
-            accumsan lacus vel facilisis.{' '}
-          </p>
-          <button>Hire us today </button>
-          <div>
-            <p>Find more about us</p>
-            <div>
-              <div>icon </div>
-              <div>icon </div>
-              <div>icon </div>
+        <div className="container">
+          <div className="header-content">
+            <h1>
+              From A to Z
+              <br />
+              renovation
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+              maecenas accumsan lacus vel facilisis.
+            </p>
+            <button className="btn-primary">Hire us today </button>
+            <div className="header-content__footer">
+              <p>
+                Find more about us <br /> on our funpages{' '}
+              </p>
+              <div>
+                <div className="header-content__footer--icon"></div>
+                <div className="header-content__footer--icon"></div>
+                <div className="header-content__footer--icon"></div>
+              </div>
             </div>
           </div>
         </div>
