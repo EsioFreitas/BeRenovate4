@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Container } from './styles';
+import teamPhoto from '../../assets/images/reno4-home-team.png';
 
 import teamPhoto from '../../assets/images/reno4-home-team.png';
 import contruction from '../../assets/images/reno4-home-icon1.png';
