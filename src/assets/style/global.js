@@ -35,6 +35,11 @@ p {
   font-weight: bold;
   transition: all .5s;
   cursor: pointer;
+  box-shadow: 1px 1px 3px #35353550;
+
+  &:hover {
+    box-shadow: 1px 2px 5px #353535;
+  }
 }
 
 .btn-primary{
