@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Container } from './styles';
+import teamPhoto from '../../assets/images/reno4-home-team.png';
 
 function Main() {
   return (
@@ -18,7 +19,7 @@ function Main() {
               eiusmod tempor incididunt ut labore et dolore magna aliqua
               maecenas accumsan lacus vel facilisis.
             </p>
-            <button className="btn-primary">Hire us today </button>
+            <button className="btn-primary btn">Hire us today </button>
             <div className="header-content__footer">
               <p>
                 Find more about us <br /> on our funpages{' '}
@@ -33,70 +34,77 @@ function Main() {
         </div>
       </header>
       <section>
-        <img src="" alt="team" />
-        <div>
-          <h2>
-            We offer a wide variety of services for office spaces. We will help
-            you create a great looking work area for high productivity.
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua maecenas
-            accumsan lacus vel facilisis.
-          </p>
-          <button>About us</button>
+        <div className="container">
+          <div className="about">
+            <img src={teamPhoto} alt="team" className="about__image" />
+            <div className="about__content">
+              <h2>
+                We offer a wide variety of services for office spaces. We will
+                help you create a great looking work area for high productivity.
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua
+                maecenas accumsan lacus vel facilisis.
+              </p>
+              <button className="btn btn-secondary"> About us</button>
+              <div className="about__photo"></div>
+            </div>
+          </div>
         </div>
       </section>
       <section>
-        <h2>
-          We have a vast offer that <br />
-          covers all renovation needs
-        </h2>
+        <div className="container">
+          <h2>
+            We have a vast offer that <br />
+            covers all renovation needs
+          </h2>
 
-        <div>
           <div>
-            <img src="" alt="construction" />
-            <h3>Construction</h3>
-            <p>
-              ConstructionLorem ipsum dolor sit amet, consectetur adipiscing
-              elit, seagna aliqua maecenas accum lacus vel facilisis.
-            </p>
-            <p>
-              Prices from <span>$30/m</span>
-            </p>
+            <div>
+              <img src="" alt="construction" />
+              <h3>Construction</h3>
+              <p>
+                ConstructionLorem ipsum dolor sit amet, consectetur adipiscing
+                elit, seagna aliqua maecenas accum lacus vel facilisis.
+              </p>
+              <p>
+                Prices from <span>$30/m</span>
+              </p>
+            </div>
+
+            <div>
+              <img src="" alt="Electrics" />
+              <h3>Electrics</h3>
+              <p>
+                Electrics ipsum dolor sit amet, consectetur adipiscing elit,
+                seagna aliqua maecenas accum lacus vel facilisis.
+              </p>
+              <p>
+                Prices from <span>$30/m</span>
+              </p>
+            </div>
+
+            <div>
+              <img src="" alt="Plumbing" />
+              <h3>Plumbing</h3>
+              <p>
+                Plumbing ipsum dolor sit amet, consectetur adipiscing elit,
+                seagna aliqua maecenas accum lacus vel facilisis.
+              </p>
+              <p>
+                Prices from <span>$30/m</span>
+              </p>
+            </div>
           </div>
 
           <div>
-            <img src="" alt="Electrics" />
-            <h3>Electrics</h3>
             <p>
-              Electrics ipsum dolor sit amet, consectetur adipiscing elit,
-              seagna aliqua maecenas accum lacus vel facilisis.
+              Labore et dolore magna aliqua it enim ad minim <br />
+              veniam, quis nostrud exercitation
             </p>
-            <p>
-              Prices from <span>$30/m</span>
-            </p>
+            <button>Our offer</button>
           </div>
-
-          <div>
-            <img src="" alt="Plumbing" />
-            <h3>Plumbing</h3>
-            <p>
-              Plumbing ipsum dolor sit amet, consectetur adipiscing elit, seagna
-              aliqua maecenas accum lacus vel facilisis.
-            </p>
-            <p>
-              Prices from <span>$30/m</span>
-            </p>
-          </div>
-        </div>
-
-        <div>
-          <p>
-            Labore et dolore magna aliqua it enim ad minim <br />
-            veniam, quis nostrud exercitation
-          </p>
-          <button>Our offer</button>
         </div>
       </section>
       <section>
