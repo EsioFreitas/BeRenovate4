@@ -27,19 +27,32 @@ p {
   margin: 0 auto;
 }
 
-.btn-primary{
-  background-color: #FFD800;
+.btn {
   border: none;
   border-radius: .3rem;
   font-family: 'Open Sans', sans-serif;
   padding: 1rem 2rem;
-  color: #10293D;
   font-weight: bold;
-  cursor: pointer;
   transition: all .5s;
+  cursor: pointer;
+}
+
+.btn-primary{
+  background-color: #FFD800;
+  color: #10293D;
 
   &:hover{
     background-color: #10293D;
+    color: white;
+  }
+}
+
+.btn-secondary{
+  background-color: #10293D;
+  color: white;
+
+  &:hover{
+    background-color: #10293F;
     color: white;
   }
 }
