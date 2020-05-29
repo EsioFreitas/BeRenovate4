@@ -95,4 +95,60 @@ export const Container = styled.div`
       right: 3%;
     }
   }
+
+  .services {
+    margin: 10rem 0;
+
+    &__title {
+      font-size: 3rem;
+    }
+
+    &__card-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__card{
+      width: 30%;
+
+      img {
+        width: 60%;
+        margin: 5rem 0 2rem 0;
+      }
+
+      h3 {
+        font-size: 2rem;
+        margin: 1rem 0;
+      }
+
+      p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+      }
+
+
+      &--prices {
+        font-weight: bold;
+        margin: 2rem 0 4em 0;
+
+        span {
+          border-bottom: 2px solid #FFD800;
+        }
+      }
+    }
+
+    &__footer{
+      width: 100%;
+      border-top: 1px solid #ccc;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-top: 3rem;
+
+      p {
+        margin-right: 4rem;
+      }
+    }
+  }
 `;
