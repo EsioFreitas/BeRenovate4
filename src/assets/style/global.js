@@ -20,6 +20,7 @@ h1, h2, h3, h4  {
 p {
   font-family: 'Open Sans', sans-serif;
   color: #10293D;
+  font-size: 1.5rem;
 }
 
 .container {
