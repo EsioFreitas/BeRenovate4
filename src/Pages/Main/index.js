@@ -5,6 +5,8 @@ import teamPhoto from '../../assets/images/reno4-home-team.png';
 import contruction from '../../assets/images/reno4-home-icon1.png';
 import eletrics from '../../assets/images/reno4-home-icon2.png';
 import plubing from '../../assets/images/reno4-home-icon3.png';
+import callUsCellphonePhoto from '../../assets/images/image.png';
+import callUsEmailPhoto from '../../assets/images/image0.png';
 
 import teamPhoto from '../../assets/images/reno4-home-team.png';
 import contruction from '../../assets/images/reno4-home-icon1.png';
