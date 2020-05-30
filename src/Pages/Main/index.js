@@ -5,6 +5,8 @@ import teamPhoto from '../../assets/images/reno4-home-team.png';
 import contruction from '../../assets/images/reno4-home-icon1.png';
 import eletrics from '../../assets/images/reno4-home-icon2.png';
 import plubing from '../../assets/images/reno4-home-icon3.png';
+import callUsCellphonePhoto from '../../assets/images/image.png';
+import callUsEmailPhoto from '../../assets/images/image0.png';
 
 function Main() {
   return (
@@ -121,19 +123,19 @@ function Main() {
         </p>
       </section>
 
-      <section>
-        <div>icon</div>
-        <div>
+      <section className="call-us">
+        <div className="call-us__icon"></div>
+        <div className="call-us__content">
           <h3>
             Call us if you have <br />a question
           </h3>
-          <div>
+          <div className="call-us__content--icons">
             <div>
-              <div>icon</div>
+              <img src={callUsCellphonePhoto} alt="cellphone" />
               <p>+95 454 959</p>
             </div>
             <div>
-              <div>icon</div>
+              <img src={callUsEmailPhoto} alt="email" />
               <p>noreply@envato.com</p>
             </div>
           </div>
