@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import headerBackground from '../../assets/images/reno4-slider-bg.png';
 import aboutPhoto from '../../assets/images/reno4-smallbg-1.png';
 
+import callUsPhoto from '../../assets/images/reno4-reno-guys.png';
+
 export const Container = styled.div`
   header {
   background-image: url('${headerBackground}');
@@ -40,6 +42,7 @@ export const Container = styled.div`
         }
         div{
           display: flex;
+
         }
         &--icon{
           width: 5rem;
@@ -150,5 +153,48 @@ export const Container = styled.div`
         margin-right: 4rem;
       }
     }
+  }
+
+  .call-us {
+    margin: 10rem 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__icon {
+      margin-right: 4rem;
+      background-image: url("${callUsPhoto}");
+      width: 30%;
+      height: 40rem;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    &__content {
+
+      span {
+        font-weight: bold;
+      }
+
+      h3 {
+        font-size: 3rem;
+        margin: 1rem 0;
+      }
+
+      &--icons  {
+        margin: 5rem 0;
+        display: flex;
+        div {
+          margin-right: 2rem;
+          display: flex;
+          img {
+            width: 5rem;
+            margin-right: 2rem;
+          }
+        }
+      }
+    }
+
+
   }
 `;
