@@ -1,12 +1,16 @@
 import React from 'react';
 
 import { Container } from './styles';
+
 import teamPhoto from '../../assets/images/reno4-home-team.png';
 import contruction from '../../assets/images/reno4-home-icon1.png';
 import eletrics from '../../assets/images/reno4-home-icon2.png';
 import plubing from '../../assets/images/reno4-home-icon3.png';
 import callUsCellphonePhoto from '../../assets/images/image.png';
 import callUsEmailPhoto from '../../assets/images/image0.png';
+import modalPhotoOne from '../../assets/images/reno4-home-slide1.jpg';
+import modalPhotoTwo from '../../assets/images/reno4-home-slide2.jpg';
+import modalPhotoThree from '../../assets/images/reno4-home-slide3.jpg';
 
 function Main() {
   return (
@@ -112,11 +116,16 @@ function Main() {
           </div>
         </div>
       </section>
-      <section>
-        <h2>Take a look at our realizations</h2>
-        <div>Carosel</div>
-        <button>See our work</button>
-        <p>
+
+      <section className="projects">
+        <h2 className="projects__title">Take a look at our realizations</h2>
+        <div className="projects__modal">
+          <img src={modalPhotoOne} alt="modal-img" />
+          <img src={modalPhotoTwo} alt="modal-img" />
+          <img src={modalPhotoThree} alt="modal-img" />
+        </div>
+        <button className="btn btn-secondary">See our work</button>
+        <p className="projects__text">
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum{' '}
           <br />
           dolore eu fugiat nulla pariatur excepteur sint.
