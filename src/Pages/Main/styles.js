@@ -194,7 +194,33 @@ export const Container = styled.div`
         }
       }
     }
+  }
 
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    &__title {
+      text-align: center;
+      font-size: 3rem;
+    }
+
+    &__modal {
+      display: flex;
+      overflow: auto;
+      margin: 4rem 0;
+
+      img {
+        margin: 0 1rem;
+        width: 50%;
+      }
+    }
+
+    &__text {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-top: 2rem;
+    }
   }
 `;
